@@ -41,6 +41,7 @@ $ adb push ./build/model_test /data/local/tmp
 $ adb push ./model_files /data/local/tmp
 $ adb push ./tensorflow_lite_c_2_15_0/lib/aarch64/libtensorflowlite_c.so /data/local/tmp
 $ adb push ./tensorflow_lite_c_2_15_0/lib/aarch64/libtensorflowlite_gpu_delegate.so /data/local/tmp
+$ adb push ./tensorflow_lite_c_2_15_0/lib/aarch64/libc++_shared.so /data/local/tmp
 ```
 
 To run the tool:
